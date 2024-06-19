@@ -1,7 +1,5 @@
  <h1 align="center">Estudiando Y Practicando Programacion</h1>
 
-
-
  <h2 align="center"> ¿Como Pienso Aprender xD?</h2>
  <p>Estudiando Cursos con Oracle Next Education (ONE)</p>
  
