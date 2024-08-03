@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet" />
+    <title>Document</title>
+  </head>
+  <body>
+    <main class="contenido">
+      <textarea id="resultado" readonly></textarea>
+
+      <div class="botones-accion">
+        <button class="clear" onclick="clearDisplay()">C</button>
+        <button value="+" class="operador" onclick="updateDisplay(this)">+</button>
+        <button value="-" class="operador" onclick="updateDisplay(this)">-</button>
+        <button value="/" class="operador" onclick="updateDisplay(this)">÷</button>
+        <button value="*" class="operador" onclick="updateDisplay(this)">×</button>
+        <button value="1" class="number" onclick="updateDisplay(this)">1</button>
+        <button value="2" class="number" onclick="updateDisplay(this)">2</button>
+        <button value="3" class="number" onclick="updateDisplay(this)">3</button>
+        <button value="4" class="number" onclick="updateDisplay(this)">4</button>
+        <button value="5" class="number" onclick="updateDisplay(this)">5</button>
+        <button value="6" class="number" onclick="updateDisplay(this)">6</button>
+        <button value="7" class="number" onclick="updateDisplay(this)">7</button>
+        <button value="8" class="number" onclick="updateDisplay(this)">8</button>
+        <button value="9" class="number" onclick="updateDisplay(this)">9</button>
+        <button value="0" class="number" onclick="updateDisplay(this)">0</button>
+        <button class="calcular" onclick="calcular()">=</button>
+      </div>
+    </main>
+    <script src="app.js"></script>
+  </body>
+</html>
